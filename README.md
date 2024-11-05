@@ -10,7 +10,7 @@ This repository includes the following steps:
 
 2. Neaten the original WSO data for easier reading, and save the corresponding grids. 
 
-   --> This step can be done by 'neaten_WSO_data.py' , and the grid is saved as 'lat_arr.dat' and 'lon_arr.dat'
+   --> This step can be done by 'neaten_WSO_photospheric_field.m' , and the grid is saved as 'lat_arr.dat' and 'lon_arr.dat'
 
 3. Interpolate the WSO maps to GONG grids, and save the interpolated fields.
    
