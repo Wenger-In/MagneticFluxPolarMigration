@@ -16,7 +16,7 @@ This repository includes the following steps:
    
    --> This step can be done by 'interp2gong_grid.py', and the interpolated data is saved as 'CR****_interp.dat'. 
 
-4. Construct Sunpy.map based on the interpolated data and corresponding header, use PFSS model to obtain the magnetic field on source surface.
+4. Construct Sunpy.map based on the interpolated data and corresponding meta, use PFSS model to obtain the magnetic field on source surface.
 
    --> This step can be done by 'pfss4WSO_field.py', and the source surface fields are saved as 'CR****_ss.dat'
 
@@ -24,4 +24,4 @@ This repository includes the following steps:
 
    --> This step can be done by 'plot_butterfly_diagram.py', and the averaged fields are saved as 'avg_Br_phs.dat' and 'avg_Br_ss.dat'.
 
-**Note**: Here for the input of PFSS model, a header is required, however, WSO data does not have a header intrinsically. So, we will check whether we can obtain the same source surface fields with any header. If the answer is YES, we can keep the same header (from GONG) for the PFSS model.
+**Note**: Here for the input of PFSS model, meta is required, however, WSO data does not have the meta data intrinsically. So, we will check whether we can obtain the same source surface fields with any meta. If the answer is YES, we can keep the same meta (from GONG) for the PFSS model.
